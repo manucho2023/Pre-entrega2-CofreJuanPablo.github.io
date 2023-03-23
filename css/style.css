@@ -1,0 +1,157 @@
+
+.navbar-expand-lg  {
+    display: grid;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+ 
+   justify-content: space-between;
+   margin: 0px auto;
+   align-items: center;
+   width: 100%;
+   flex-wrap: nowrap; 
+   flex-wrap: nowrap;
+   flex-flow: nowrap;
+   justify-content: center;
+   align-items: baseline;
+}
+.navbar-brand img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    
+}
+.nav-link {
+    align-items: center;
+    justify-content: center;
+    
+}
+
+    
+
+
+.logo img {
+    display: flex;
+    background-color: black;
+    width: 100px;
+    height: auto;
+    justify-content: stretch;
+    align-items: flex-start;
+    
+
+}
+
+
+.menu {
+
+    display: flex;
+    background-color: orange;
+    text-decoration: none;
+
+     }
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif; 
+    
+}
+#Juan {
+    display: grid;
+    align-items: center;
+}
+ #Juan  {
+
+    font-family: Georgia;
+    font-size: larger;
+    color: white;
+    text-align: center;
+    background-color: black ;
+}
+
+ #Pie-de-pagina {
+    background-color: #ff6600;
+    text-align: left;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    
+}
+.fotos div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+
+}
+
+ h2  {   
+text-align: justify;
+color: white;
+}
+
+#videos {
+    background-color: black;
+    padding-left: 250px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+    
+.videos {
+    display: flex;
+    text-align: center;
+    background-color: burlywood;
+}
+.informacion {
+    text-align: center;
+    background-color: coral;
+}
+h3 { 
+    text-align: center;
+    font-weight: 500px;
+    font-style: italic;
+}
+.fechas p {
+    text-align: center;
+    background-color: burlywood;
+}
+.fechas img {
+    width: 400px;
+    height: 300px;
+    padding-left: 38%;
+}
+.contacto {
+    text-align: center;
+    font-weight: 700;
+    font-style: italic;
+    background-color: chocolate;
+    
+}
+.formulario form {
+    text-align: center;
+    font-family: fantasy;
+    font-style: inherit;
+    background-color: goldenrod;
+
+}
+
+@media screen and (min-width: 400px) {
+    .fotos {
+      grid-template-columns: repeat(4, 2);
+      grid-gap: 2px;
+    }
+  }
+    
+
